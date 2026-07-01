@@ -1,0 +1,84 @@
+* {
+    margin: 0vh;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(grey 45%, green 70%);
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 3vh;
+    padding-top: 4vh;
+
+}
+
+#go {
+    border-radius: 50%;
+}
+
+button {
+    margin: 2vh;
+    padding: 2vh;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+#checkbox {
+    display: flex;
+    justify-content: center;
+    margin: 4vh;
+    cursor: pointer;
+}
+
+input {
+    margin-right: 6vh;
+    margin-left: 1vh;
+}
+
+.otpType {
+    cursor: pointer;
+}
+
+#go {
+    cursor: pointer;
+}
+
+#bankink,
+#general {
+    cursor: pointer;
+}
+
+#determine_type {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+#type {
+    cursor: pointer;
+    margin-left: 1vh;
+}
+
+#generateotp {
+    width: 8vw;
+    height: 5vh;
+    border: double 1vh rgba(193, 202, 3, 0.583);
+}
+
+#otpbox {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+    border-bottom: dotted 1vh green;
+}

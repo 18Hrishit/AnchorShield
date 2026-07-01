@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anchor Shield</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+        <div id="test">
+            <h1>TESTING INTERFACE</h1>
+            <div>
+                <div class="choice">
+                    <button id="otpType1">General Transactions</button>
+                    <button id="otpType2">High Amount Banking OTP</button>
+                </div>
+                <div class="choice">   
+                    <Button id="go">GO</Button>
+                </div>
+                <div class="choice" style="padding-bottom: 2vh;">
+                    <p>Your OTP is</p>
+                </div> 
+                <div id="otpbox">
+                    <h2 class="choice" id="generateotp">
+                    
+                    </h2>
+                </div>
+                
+            </div>
+        </div>
+        <div id="user_interface">
+            <h1>USER INTERFACE</h1>
+            <div id="input">
+                <p>Input OTP Here</p>
+                <input type="text" name="OTP" id="UserInputOTP">
+            </div>
+            <div id="determine_type">
+                <label for="type">Type of OTP</label>
+                <select id="type">
+                    <option value="General">General OTP</option>
+                    <option value="High Amount Bank OTP">High Amount Bank OTP</option>
+                </select>
+                <button id="login">LOGIN</button>
+            </div>
+        </div>
+<script src="project.js">
+</script>
+</body>
+</html>
